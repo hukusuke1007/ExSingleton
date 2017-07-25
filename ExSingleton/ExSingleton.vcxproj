@@ -144,7 +144,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ExSingleton.cpp" />
     <ClCompile Include="ex_singleton.cpp" />
     <ClCompile Include="logout.cpp" />
     <ClCompile Include="stdafx.cpp">
