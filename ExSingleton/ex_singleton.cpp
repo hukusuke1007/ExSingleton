@@ -36,7 +36,7 @@ ex_singleton& ex_singleton::get_instance()
 
 /* Start function. */	
 void ex_singleton::start(){
-	LOG_OUTPUT("Start");
+	LOG_OUTPUT("Singleton class start");
 }
 
 }  // namespace hukusuke.

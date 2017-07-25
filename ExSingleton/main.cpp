@@ -23,15 +23,18 @@ void work_process() {
 /* main function. */
 int main(void) {
 
+	LOG_OUTPUT("Start.");
+
+	// Create thread.
 	thread t1(work_process);
 	thread t2(work_process);
 	thread t3(work_process);
 
+	// Wait thread work process.
 	t1.join();
 	t2.join();
 	t3.join();
 
-	// ÉçÉOèoóÕ
 	LOG_OUTPUT("Terminate.");
 
 	return 0;

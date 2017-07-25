@@ -1,8 +1,9 @@
-[ 16][                       void __cdecl work_process(void)] work_process thread_id[20320]
+[ 26][                                int __cdecl main(void)] Start.
+[ 16][                       void __cdecl work_process(void)] work_process thread_id[26972]
 [ 13][ __thiscall hukusuke::ex_singleton::ex_singleton(void)] Constructor
-[ 39][   void __thiscall hukusuke::ex_singleton::start(void)] Start
-[ 16][                       void __cdecl work_process(void)] work_process thread_id[20076]
-[ 39][   void __thiscall hukusuke::ex_singleton::start(void)] Start
-[ 16][                       void __cdecl work_process(void)] work_process thread_id[16208]
-[ 39][   void __thiscall hukusuke::ex_singleton::start(void)] Start
-[ 35][                                int __cdecl main(void)] Terminate.
+[ 39][   void __thiscall hukusuke::ex_singleton::start(void)] Singleton class start
+[ 16][                       void __cdecl work_process(void)] work_process thread_id[26976]
+[ 39][   void __thiscall hukusuke::ex_singleton::start(void)] Singleton class start
+[ 16][                       void __cdecl work_process(void)] work_process thread_id[26980]
+[ 39][   void __thiscall hukusuke::ex_singleton::start(void)] Singleton class start
+[ 38][                                int __cdecl main(void)] Terminate.
