@@ -16,7 +16,7 @@ void logout::log( const int line, const char* func, const char* fmt, ...){
 	vsnprintf( buf_va, sizeof( buf_va ) - 1, fmt, args );
 	va_end( args );
 	
-	printf("[%3d][%20s] %s\n", line, func, buf_va );
+	printf("[%3d][%62s] %s\n", line, func, buf_va );
 	
 	return;
 }

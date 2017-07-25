@@ -3,11 +3,12 @@
 
 #include "stdafx.h"
 #include "stdarg.h"
+#include <typeinfo> // classname—p
 
 using namespace std;
 namespace hukusuke {
 	
-#define LOG_OUTPUT(...) logout_.log( __LINE__, __func__, __VA_ARGS__)
+#define LOG_OUTPUT(...) logout_.log( __LINE__, __FUNCSIG__ , __VA_ARGS__)
 
 /* logout class */
 class logout {
